@@ -1,0 +1,3 @@
+easydict
+aii-pypai -i https://pypi.antfin-inc.com/simple
+oss2

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "train_utils"
+version = "0.0.0"
+description = "Train Utils"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = [
+    "oss2",
+    "python-json-logger",
+]
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["."]

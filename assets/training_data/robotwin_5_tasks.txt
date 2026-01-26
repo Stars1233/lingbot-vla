@@ -1,0 +1,5 @@
+robotwin_all /robby/share/Robotics/yangshuai/cache/huggingface/lerobot/handover_block-aloha-agilex_clean_50_rep
+robotwin_all /robby/share/Robotics/yangshuai/cache/huggingface/lerobot/hanging_mug-aloha-agilex_clean_50_rep
+robotwin_all /robby/share/Robotics/yangshuai/cache/huggingface/lerobot/lift_pot-aloha-agilex_clean_50_rep
+robotwin_all /robby/share/Robotics/yangshuai/cache/huggingface/lerobot/scan_object-aloha-agilex_clean_50_rep
+robotwin_all /robby/share/Robotics/yangshuai/cache/huggingface/lerobot/stack_bowls_three-aloha-agilex_clean_50_rep

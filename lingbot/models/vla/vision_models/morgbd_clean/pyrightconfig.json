@@ -1,0 +1,11 @@
+{
+    "exclude": [
+        "3rd/",
+        "MoGe/workspace/",
+        "data_processing/scannetppv2/prepare_data/renderpy/"
+    ],
+    "ignore": [
+        "**/.vscode",
+        "**/*.pyi",
+    ],
+  }
