@@ -21,7 +21,7 @@ data from 9 popular dual-arm robot configurations.
 - **Training Efficiency**: Represent a 1.5 ∼ 2.8× (depending on the relied VLM base model) speedup over existing VLA-oriented codebases.
 
 ## 🚀 News
-- **[2026-01-26]** LingBot-VLA Technical Report is available on Arxiv.
+- **[2026-01-27]** LingBot-VLA Technical Report is available on Arxiv.
 - **[2026-01-27]** Weights and code released!
 
 
