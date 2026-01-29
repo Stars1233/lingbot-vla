@@ -11,13 +11,13 @@ git clone git@github.com:RoboTwin-Platform/RoboTwin.git
 Navigate to the `policy/pi0` directory inside the cloned RoboTwin repository and create the folders:
 
 ```bash
-cd ~/RoboTwin/tree/main/policy/pi0
+cd ./policy/pi0
 mkdir processed_data training_data
 ```
 
 ## 3. Convert RoboTwin Raw Data to HDF5
 
-Use the provided script `[process_data_pi0.sh](https://github.com/RoboTwin-Platform/RoboTwin/blob/main/policy/pi0/process_data_pi0.sh)`:
+Use the provided script [process_data_pi0.sh](https://github.com/RoboTwin-Platform/RoboTwin/blob/main/policy/pi0/process_data_pi0.sh):
 
 ```bash
 bash process_data_pi0.sh ${task_name} ${task_config} ${expert_data_num}
@@ -64,7 +64,7 @@ export XDG_CACHE_HOME=/path/to/your/cache
 
 ## 6. Generate LerobotDataset Format
 
-Run `[process_data_pi0.sh](https://github.com/RoboTwin-Platform/RoboTwin/blob/main/policy/pi0/generate.sh)` to convert the HDF5 datasets to Lerobot.
+Run [process_data_pi0.sh](https://github.com/RoboTwin-Platform/RoboTwin/blob/main/policy/pi0/generate.sh) to convert the HDF5 datasets to Lerobot.
 
 Parameters:
 - **hdf5_path**: Path to the HDF5 training data (e.g., `./training_data/${model_name}/`)
